@@ -1,0 +1,13 @@
+p {
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+}
+
+p:nth-of-type(3n+2) {
+    background-color: lawngreen;
+}
+
+p:nth-of-type(4n+3) {
+    opacity: 0.6;
+}
